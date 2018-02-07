@@ -1,0 +1,42 @@
+ul{
+    list-style: none;
+    padding: 0;
+    position: relative;
+    left: 25%;
+}
+li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 50%;
+    height: 22px;
+    margin-top: 2px;
+}
+li span {
+    font-family: monospace;
+    font-size: 15px;
+    margin-right: 5px
+}
+li button {
+    float: right;
+}
+li #remove {
+    background-color: red;
+    color: white;
+    border: 0;
+    padding: 4px;
+    transition: all .5s linear;
+}
+.done {
+  color: #9E9E9E;
+  text-decoration: line-through;
+  transition: all .5s ease-in;
+}
+
+.undone {
+  color: #009c06;
+  transition: all .5s ease-in;
+}
+
+button#remove:hover {
+   background-color: #ff6868;
+}
