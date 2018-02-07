@@ -1,2 +1,2 @@
 ## TO-DO-LIST App
-A basic to-do app created using react js
+A basic To-Do List app created using react js.
